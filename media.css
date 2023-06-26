@@ -171,7 +171,9 @@
         max-width: 100%;
     }
 
-    
+    .ann__right-item {
+        justify-content: center;
+    }    
 }
 
 @media (max-width:300px) {
