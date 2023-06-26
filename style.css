@@ -385,3 +385,68 @@ a:hover {
     background-color: #19506F;
 }
 
+.hero__block {
+    position: relative;
+    animation-name: hello;
+    animation-duration: 5s;
+}
+
+@keyframes hello {
+    0% {
+        /* transform: translateY(-100%); */
+        opacity: 0;
+    }
+
+    50% {
+
+    }
+
+    100% {
+        /* transform: translateY(0%); */
+        opacity: 1;
+    }
+
+    
+}
+
+.hero__aside {
+    position: relative;
+    animation-name: aside;
+    animation-duration: 1s;
+}
+
+@keyframes aside {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.recomended {
+    position: relative;
+    animation-name: recomended;
+    animation-duration: 2s;
+    
+}
+
+@keyframes recomended {
+    0% {
+        transform: translateY(-300%);
+    }
+
+    50% {
+
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
